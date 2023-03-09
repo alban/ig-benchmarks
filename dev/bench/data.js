@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678380334985,
+  "lastUpdate": 1678380664637,
   "repoUrl": "https://github.com/alban/inspektor-gadget",
   "entries": {
     "Gadget benchmarks": [
@@ -274,6 +274,62 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkAllGadgetsManyContainers/sni",
             "value": 8191235085,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "committer": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "id": "308d2cd1c65fec9df60a6150767b2b08c1f7df5b",
+          "message": "Alban benchmarks",
+          "timestamp": "2021-10-06T10:40:11Z",
+          "url": "https://github.com/alban/inspektor-gadget/pull/4/commits/308d2cd1c65fec9df60a6150767b2b08c1f7df5b"
+        },
+        "date": 1678380663377,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkSnapshotProcessEBPFTracer",
+            "value": 161553891,
+            "unit": "ns/op",
+            "extra": "7 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotProcessProcfsTracer",
+            "value": 2091229,
+            "unit": "ns/op",
+            "extra": "583 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotSocketTracer",
+            "value": 2185223083,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTracerDNS",
+            "value": 1105864636,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsManyContainers/dns",
+            "value": 4409911377,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsManyContainers/sni",
+            "value": 8132866073,
             "unit": "ns/op",
             "extra": "1 times\n2 procs"
           }
