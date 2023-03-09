@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678372853728,
+  "lastUpdate": 1678380334985,
   "repoUrl": "https://github.com/alban/inspektor-gadget",
   "entries": {
     "Gadget benchmarks": [
@@ -218,6 +218,62 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkTracerDNS",
             "value": 1067304775,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "committer": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "id": "f2460eb5626a98655e50746c8d447a3d97b42b67",
+          "message": "Alban benchmarks",
+          "timestamp": "2021-10-06T10:40:11Z",
+          "url": "https://github.com/alban/inspektor-gadget/pull/4/commits/f2460eb5626a98655e50746c8d447a3d97b42b67"
+        },
+        "date": 1678380334615,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkSnapshotProcessEBPFTracer",
+            "value": 259878746,
+            "unit": "ns/op",
+            "extra": "4 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotProcessProcfsTracer",
+            "value": 2020499,
+            "unit": "ns/op",
+            "extra": "625 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotSocketTracer",
+            "value": 1993248757,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTracerDNS",
+            "value": 1111544740,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsManyContainers/dns",
+            "value": 4369430585,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkAllGadgetsManyContainers/sni",
+            "value": 8191235085,
             "unit": "ns/op",
             "extra": "1 times\n2 procs"
           }
