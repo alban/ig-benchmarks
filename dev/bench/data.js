@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1678371264494,
+  "lastUpdate": 1678372022300,
   "repoUrl": "https://github.com/alban/inspektor-gadget",
   "entries": {
     "Benchmark": [
@@ -88,6 +88,52 @@ window.BENCHMARK_DATA = {
             "value": 614505412,
             "unit": "ns/op",
             "extra": "2 times\n2 procs"
+          }
+        ]
+      }
+    ],
+    "Gadget benchmarks": [
+      {
+        "commit": {
+          "author": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "committer": {
+            "name": "alban",
+            "username": "alban"
+          },
+          "id": "212fe72d524070ea06c94bb8e7a0908de46a51d2",
+          "message": "Alban benchmarks",
+          "timestamp": "2021-10-06T10:40:11Z",
+          "url": "https://github.com/alban/inspektor-gadget/pull/4/commits/212fe72d524070ea06c94bb8e7a0908de46a51d2"
+        },
+        "date": 1678372021945,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkSnapshotProcessEBPFTracer",
+            "value": 170915950,
+            "unit": "ns/op",
+            "extra": "6 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotProcessProcfsTracer",
+            "value": 2091342,
+            "unit": "ns/op",
+            "extra": "602 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkSnapshotSocketTracer",
+            "value": 2148657153,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkTracerDNS",
+            "value": 1126941893,
+            "unit": "ns/op",
+            "extra": "1 times\n2 procs"
           }
         ]
       }
