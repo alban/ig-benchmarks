@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1678372501423,
   "repoUrl": "https://github.com/alban/inspektor-gadget",
   "entries": {
-    "Benchmark": [
+    "Gadget benchmarks": [
       {
         "commit": {
           "author": {
@@ -90,9 +90,7 @@ window.BENCHMARK_DATA = {
             "extra": "2 times\n2 procs"
           }
         ]
-      }
-    ],
-    "Gadget benchmarks": [
+      },
       {
         "commit": {
           "author": {
