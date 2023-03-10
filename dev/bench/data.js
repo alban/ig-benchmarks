@@ -32,18 +32,6 @@ window.BENCHMARK_DATA = {
             "value": 1947880,
             "unit": "ns/op",
             "extra": "615 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 1852679081,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1038590858,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -76,18 +64,6 @@ window.BENCHMARK_DATA = {
             "value": 1886536,
             "unit": "ns/op",
             "extra": "654 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 1055996252,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 614505412,
-            "unit": "ns/op",
-            "extra": "2 times\n2 procs"
           }
         ]
       },
@@ -120,18 +96,6 @@ window.BENCHMARK_DATA = {
             "value": 2091342,
             "unit": "ns/op",
             "extra": "602 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 2148657153,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1126941893,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -164,18 +128,6 @@ window.BENCHMARK_DATA = {
             "value": 1934812,
             "unit": "ns/op",
             "extra": "638 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 1808180568,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1041771833,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -208,18 +160,6 @@ window.BENCHMARK_DATA = {
             "value": 1896803,
             "unit": "ns/op",
             "extra": "646 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 1901285319,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1067304775,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -252,30 +192,6 @@ window.BENCHMARK_DATA = {
             "value": 2020499,
             "unit": "ns/op",
             "extra": "625 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 1993248757,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1111544740,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkAllGadgetsManyContainers/dns",
-            "value": 4369430585,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkAllGadgetsManyContainers/sni",
-            "value": 8191235085,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -308,30 +224,6 @@ window.BENCHMARK_DATA = {
             "value": 2091229,
             "unit": "ns/op",
             "extra": "583 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 2185223083,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1105864636,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkAllGadgetsManyContainers/dns",
-            "value": 4409911377,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkAllGadgetsManyContainers/sni",
-            "value": 8132866073,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           }
         ]
       },
@@ -364,18 +256,6 @@ window.BENCHMARK_DATA = {
             "value": 2059327,
             "unit": "ns/op",
             "extra": "602 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkSnapshotSocketTracer",
-            "value": 2020731895,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
-          },
-          {
-            "name": "BenchmarkTracerDNS",
-            "value": 1142786590,
-            "unit": "ns/op",
-            "extra": "1 times\n2 procs"
           },
           {
             "name": "BenchmarkAllGadgetsManyContainers/-traceloop",
